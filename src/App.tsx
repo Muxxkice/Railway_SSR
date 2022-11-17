@@ -6,7 +6,7 @@ export const App = () => {
   // }
   return (
     <>
-      <h1>APP</h1>
+      <h1>デプロイできたよ</h1>
     </>
   );
 };

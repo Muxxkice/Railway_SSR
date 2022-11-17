@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  background-color: black;
 }
 
 h1 {
-  color: red;
+  color: #fff;
+  align-items: center;
 }
