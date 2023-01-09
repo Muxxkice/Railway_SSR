@@ -1,13 +1,14 @@
 const http = require('http');
+// const settings = require('../src/index.tsx');
 const port = 9000;
+
 const server = http.createServer((request, response) => {
-
-	response.writeHead(200, {
-		"Content-Type": "text/html"
-	});
-	response.write('Hello World');
-	response.end();
+    response.writeHead(200, {
+        "Content-Type": "text/html"
+    });
+    response.write('<h1>Hello World</h1>');
+    response.end();
 });
-
 server.listen(port);
-console.log('Server listen on port ' + port);
+// server.listen(port, settings.host);
+console.log(`http://localhost:${port}`);

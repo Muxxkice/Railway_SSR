@@ -1,12 +1,13 @@
 import * as React from "react";
+import Test from "./test";
 
 export const App = () => {
-  // while (true) {
-  //   break;
-  // }
+  console.log("App");
+
   return (
     <>
-      <h1>デプロイできたよ</h1>
+      <h2>Hello World</h2>
+      <Test />
     </>
   );
 };

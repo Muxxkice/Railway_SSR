@@ -3,8 +3,4 @@ import * as ReactDOM from "react-dom";
 import "./reset.css";
 import App from "./App";
 
-ReactDOM.render(
-  <App />,
-  // /* <div>Hello World</div> */
-  document.getElementById("root")
-);
+ReactDOM.render(<App />, document.getElementById("root"));
